@@ -6,9 +6,10 @@
 # DOMAIN-SUFFIX: 2
 # DOMAIN-KEYWORD: 4
 # TOTAL: 6
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,auroramedia.vip
 DOMAIN-KEYWORD,xyz
 DOMAIN-KEYWORD,pili
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,link
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,auroramedia.vip
+
