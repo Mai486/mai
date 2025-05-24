@@ -1,8 +1,6 @@
 #!name=Tg外链跳转重定向intent
 #!desc=Tg重定向外链跳转至intent
 #!author=麻衣
-#!icon=
-#!tag = 
 
 [URL Rewrite]
 (https:\/\/)?t.me\/(.+) intent://resolve?domain=$2 302
