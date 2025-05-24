@@ -1,6 +1,9 @@
 #!name= Tg外链跳转重定向intent
 #!desc= Tg重定向外链跳转，至第三方客户端intent
 #!author= 麻衣
+#!author= 麻衣
+#!icon= 
+#!tag = 
 
 [rewrite]
 (https:\/\/)?t.me\/(.+) 302 intent://resolve?domain=$2
