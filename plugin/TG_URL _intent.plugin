@@ -1,0 +1,11 @@
+#!name= Tg外链跳转重定向intent
+#!desc= Tg重定向外链跳转，至第三方客户端intent
+#!author= 麻衣
+#!icon= https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/YYY/yyy5.png
+#!tag = 樱岛,麻衣
+
+[rewrite]
+(https:\/\/)?t.me\/(.+) 302 intent://resolve?domain=$2
+
+[mitm]
+hostname = t.me
