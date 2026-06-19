@@ -1,9 +1,0 @@
-#!name=Tg外链重定向sg
-#!desc=Tg外链跳转至第三方客户端swiftgram
-#!author=mai
-
-[URL Rewrite]
-(https:\/\/)?t.me\/(.+) sg://resolve?domain=$2 302
-
-[MITM]
-hostname = %APPEND% t.me
