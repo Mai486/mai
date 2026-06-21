@@ -1,0 +1,9 @@
+#!name=Tg外链重定向Ghostgram
+#!desc=Tg外链跳转至第三方客户端Ghostgram
+#!author=Mai
+
+[URL Rewrite]
+(https:\/\/)?t.me\/(.+) ghostgram://resolve?domain=$2 302
+
+[MITM]
+hostname = %APPEND% t.me
